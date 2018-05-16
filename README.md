@@ -1,4 +1,4 @@
-# Angular 5 Basics - Directives
+# Angular 6 Basics: Directives
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
