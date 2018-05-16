@@ -1,26 +1,37 @@
-# MyFirstApp
+# Angular 5 Basics - Directives
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
-## Development server
+## How to view
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm install` inside this project folder to install all dependencies.
+Make sure you use the latest version of the CLI (upgrade guide below).
 
-## Code scaffolding
+Run `npm install -g @angular/cli` to install Angular CLI.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng serve` to see the app in action (try `npm start` in case `ng serve` fails).
 
-## Build
+## How to upgrade the CLI
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+To update Angular CLI to a new version, you must update both the global package and your project's local package.
 
-## Running unit tests
+### Global package
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run the below commands - only use `sudo` on Mac/ Linux.
 
-## Running end-to-end tests
+`sudo npm uninstall -g angular-cli @angular/cli`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+`npm cache clean --force`
+
+`sudo npm install -g @angular/cli`
+
+### Local package
+
+`rm -rf node_modules dist # use rmdir /S/Q node_modules dist in Windows Command Prompt; use rm -r -fo node_modules,dist in Windows PowerShell`
+
+`npm install --save-dev @angular/cli@latest`
+
+`npm install`
 
 ## Further help
 
